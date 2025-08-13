@@ -1,0 +1,101 @@
+
+/* This CSS file styles the HTML elements using tag name selectors, class selectors, and ID selectors.*/
+
+/* tag name selectors */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0; /* Space around the content area */
+    background-color: #f4f4f4; /* Content background color */
+}
+
+h1 {
+    font-size: 2rem; /* Sets size of content area */
+    font-style: italic; /* Makes the title italic */
+    color: plum; /* Text color for the title */
+    font-weight: bold; /* Makes the title bold */
+    margin-bottom: 20px; /* Space below the title */
+    text-align: center; /* Centers the title in the content area */
+}
+
+p {
+    color: #333; /* Text color (content styling) */
+    font-size: 1rem; /* Sets size of text in content area */
+    font-style: oblique; /* Makes the text oblique */
+}
+
+/* class selectors */
+.main-header {
+    background-color: #4CAF50; /* Content background */
+    color: white;
+    padding: 20px; /* Space between content and border */
+    text-align: center;
+    border-bottom: 5px solid #388E3C; /* Visible border (part of box model) */
+    margin: 0; /* No extra space outside header */
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    margin-top: 5px; /* Space between subtitle and title above */
+    color: #f0f0f0; /* Subtitle text color */
+}
+
+.main-nav {
+    background-color: grey;
+    display: flex;
+    justify-content: center; /* Aligns nav links horizontally */
+    margin: 0; /* No gap above or below nav bar */
+    padding: 0; /* No space inside nav container */
+}
+
+.main-nav a {
+    color: white;
+    padding: 14px 20px; /* Padding gives clickable area around text */
+    text-decoration: none;
+}
+
+.main-nav a:hover {
+    background-color: green; /* Changes background on hover */
+    color: black; /* Changes text color on hover */
+}
+
+.card {
+    background-color: white;
+    margin: 20px auto; /* Space outside card, auto centers it */
+    padding: 20px; /* Space inside card between text and border */
+    border: 2px solid #ccc; /* Border around the card */
+    border-radius: 8px;
+    max-width: 600px; /* Controls content area width */
+}
+
+.card.highlight {
+    
+    background-color: #e8f5e9; /* Light green content background */
+    border-color: yellowgreen /* Emphasized border */   
+}
+
+.main-footer {
+    background-color: gray; /* Footer background color */
+    color: white;
+    text-align: center;
+    padding: 15px; /* Inside space around footer text */
+    border-top: 5px solid #4CAF50;
+    margin-top: 20px; /* Space outside footer */
+}
+
+/* ID selectors */
+#page-title {
+    text-transform: uppercase;
+    letter-spacing: 2px; /* Adjusts text spacing inside content area */
+}
+
+#intro {
+    background-color: #fff8e1; /* Light yellow to highlight section */
+    border-left: 5px solid #FF9800; /* Thick left border for emphasis */
+    padding: 20px; /* Extra internal spacing */
+}
+
+#footer-note {
+    font-size: 0.9rem;
+    font-style: italic;
+}
